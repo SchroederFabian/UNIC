@@ -1,0 +1,20 @@
+Package: UNIC
+Type: Package
+Title: Univariate Classification
+Version: 0.9
+Date: 2017-11-15
+Author: Fabian Schroeder 
+Maintainer: Fabian Schroeder <fabian.schroeder.fl@ait.ac.at>
+Description: The package provides a few univariate classifiers, with which it is
+	possible to evaluate variables under consideration of the operating conditions. 
+	They are in particulary useful as a filter selection method.
+URL: https://github.com/SchroederFabian/UNIC
+BugReports: https://github.com/SchroederFabian/UNIC
+License: GPL-2
+Imports: gmp, stats
+LinkingTo: Rcpp (>= 0.12.8), BH
+SystemRequirements: C++11
+NeedsCompilation: yes
+Depends: Rcpp, R (>= 3.0.2),
+ 
+
